@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(77, 74, 74);
+}
+#container{
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+    position: relative;
+    margin-top: 20%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px auto;
+    /* padding: 30px; */
+}
+#number{
+    height: 60px;
+    
+    background-color: white;
+    text-align: center;
+}
+#increment{
+    background-color: rgb(17, 131, 83);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+#decrement{
+    background-color: rgb(245, 99, 99);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}

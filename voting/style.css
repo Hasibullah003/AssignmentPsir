@@ -1,0 +1,67 @@
+body
+        {
+            text-align: center;
+            margin-top: 150px;
+        }
+        #div1
+        {
+         display: inline-flex;
+         border: 1px solid;
+         background-color: blueviolet;
+        }
+        #input
+        {
+            border: none;
+            margin-left: 55px;
+            background-color: blueviolet;
+        }
+        #Add
+        {
+            color: green;
+            border: none;
+            margin-left: 76px;
+            background-color: blueviolet;
+            cursor: pointer;
+        }
+        #input1
+        {
+            border: none;
+            margin-left: 55px;
+            background-color: blueviolet;
+        }
+        #Add1
+        {
+            color: green;
+            border: none;
+            margin-left: 55px;
+            background-color: blueviolet;
+            cursor: pointer;
+        }
+        #input2
+        {
+            border: none;
+            margin-left: 55px;
+            background-color: blueviolet;
+        }
+        #Add2
+        {
+            color: green;
+            border: none;
+            margin-left: 83px;
+            background-color: blueviolet;
+            cursor: pointer;
+        }
+        #input3
+        {
+            border: none;
+            margin-left: 55px;
+            background-color: blueviolet;
+        }
+        #Add3
+        {
+            color: green;
+            border: none;
+            margin-left: 72px;
+            background-color: blueviolet;
+            cursor: pointer;
+        }

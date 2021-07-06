@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Vote Your Language!</h1>
+    <div id="div1">
+        <input type="text" value="0" id="input">
+        <h4>Php</h4> 
+        <input type="text" id="Add" value="Click Here">
+    </div>
+   <br>
+    <div id="div1">
+        <input type="text" value="0" id="input1">
+        <h4>Python</h4> 
+        <input type="text" id="Add1" value="Click Here">
+    </div>
+<br>
+    <div id="div1">
+        <input type="text" value="0" id="input2">
+        <h4>Go</h4> 
+        <input type="text" id="Add2" value="Click Here">
+    </div>
+<br>
+    <div id="div1">
+        <input type="text" value="0" id="input3">
+        <h4>Java</h4> 
+        <input type="text" id="Add3" value="Click Here">
+    </div>
+<script>
+    let add = document.querySelector("#Add")
+        let input = document.querySelector("input")
+        
+        add.addEventListener('click', () =>{
+            input.value=parseInt(input.value) + 1;
+        })
+
+
+        let add1 = document.querySelector("#Add1")
+        let input1 = document.querySelector("#input1")
+        
+        add1.addEventListener('click', () =>{
+            input1.value=parseInt(input1.value) + 1;
+        })
+
+        let add2 = document.querySelector("#Add2")
+        let input2 = document.querySelector("#input2")
+        
+        add2.addEventListener('click', () =>{
+            input2.value=parseInt(input2.value) + 1;
+        })
+
+        let add3 = document.querySelector("#Add3")
+        let input3 = document.querySelector("#input3")
+        
+        add3.addEventListener('click', () =>{
+            input3.value=parseInt(input3.value) + 1;
+        })
+</script>
+</body>
+</html>
